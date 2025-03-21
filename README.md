@@ -1,7 +1,7 @@
 # Scraper
 
-[![Python Tests](https://github.com/johnburbridge/scraper/actions/workflows/python-package.yml/badge.svg)](https://github.com/johnburbridge/scraper/actions/workflows/python-package.yml)
-[![Coverage](https://codecov.io/gh/johnburbridge/scraper/branch/main/graph/badge.svg)](https://codecov.io/gh/johnburbridge/scraper)
+[![Python Tests](https://github.com/spiralhouse/scraper/actions/workflows/python-package.yml/badge.svg)](https://github.com/spiralhouse/scraper/actions/workflows/python-package.yml)
+[![Coverage](https://codecov.io/gh/spiralhouse/scraper/branch/main/graph/badge.svg)](https://codecov.io/gh/spiralhouse/scraper)
 
 A flexible web crawler that recursively crawls websites, respects robots.txt, and provides various output options.
 
@@ -15,7 +15,7 @@ A flexible web crawler that recursively crawls websites, respects robots.txt, an
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/johnburbridge/scraper.git
+git clone https://github.com/spiralhouse/scraper.git
 cd scraper
 ```
 
@@ -29,6 +29,12 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+## Requirements
+
+- **Python**: Compatible with Python 3.9, 3.10, 3.11, and 3.12
+- All dependencies are listed in the `requirements.txt` file and are automatically installed during the installation process.
+- Some optional dependencies are available for development in `requirements-dev.txt`.
 
 ## Basic Usage
 
